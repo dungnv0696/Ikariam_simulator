@@ -1,4 +1,3 @@
-# Ikariam Simulator
 Xây dựng ứng dụng hỗ trợ tấn công cho game Ikariam đánh BỘ
 1) Mục tiêu: ứng dụng cho phép người chơi giả lập được các thao tác tấn công, tăng quân, rút quân, kích hoạt lò, kích hoạt Colossus khi chơi game. Trước khi tấn công một nhà đối phương trong game Ikariam, người chơi sẽ sử dụng ứng dụng này để lường trước được các thiệt hại của mình.
 2) Thuật ngữ:
@@ -21,7 +20,7 @@ Một số loại quân chỉ đứng ở một vị trí nhất định, một 
 Đây là danh sách các vị trí trống có thể đặt quân. Số lượng các ô và số quân có trong một ô tùy thuộc vào cấp độ của nhà Town Hall. Chẳng hạn ở hình dưới đây là số ô khi nhà Town Hall cấp 23.
 
 Chi tiết đọc ở: http://ikariam.wikia.com/wiki/Land_battle
- 
+
 Chú ý: để đơn giản, giả sử rằng nếu không có đầu bếp thì sau mỗi hiệp quân đội sẽ bị mất 25% sĩ khí. Nếu có 1 đầu bếp thì sau mỗi hiệp, sĩ khí sẽ khôi phục được 2%. Ngoài ra giả sử rằng không bên nào có bác sĩ.
 d) Garrison Limit:
 Với quân đội trú trong thành, nếu số quân là giới hạn (nhỏ hơn mức Garrison Limit) thì khi bị tấn công, quân địch sẽ phải công phá tường trước.
@@ -155,4 +154,3 @@ Bên phòng thủ thì bắn đá đã kịp bắn 20% số đạn trước khi 
 Sang hiệp 2:
 Bên tấn công pháo đã bắn 22% cơ số đạn. Xạ thủ chưa kịp bắn. Bong bóng đã bắn 25% cơ số đạn. 	
  
-
